@@ -1,0 +1,4 @@
+Generate {num_questions} diverse question-answer pairs from the following text:
+
+Text:
+{text}

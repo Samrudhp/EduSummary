@@ -1,0 +1,4 @@
+Summarize the following text in structured points. Mention key ideas clearly.
+
+Text:
+{text}

@@ -1,0 +1,4 @@
+Generate {num_mnemonics} helpful mnemonics based on the text below. Use acronyms, rhymes, or chunking techniques:
+
+Text:
+{text}

@@ -1,0 +1,4 @@
+Create a text-based concept map of the key ideas and their relationships from the following passage:
+
+Text:
+{text}
