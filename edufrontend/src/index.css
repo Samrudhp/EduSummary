@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #4b0082; /* Rich purplish-black */
+  --secondary-color: #2a1a3d; /* Dark purplish-black background */
+  --text-color: #d8b4e2; /* Light purple for contrast */
+  --card-bg: #3d2a5e; /* Card background */
+  --accent-color: #a100a1; /* Vibrant purple accent */
+  --error-color: #e74c3c;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #2a1a3d, #1f1330);
+  color: var(--text-color);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.dark-mode {
+  --secondary-color: #1f1330;
+  --text-color: #d8b4e2;
+  --card-bg: #3d2a5e;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --secondary-color: #1f1330;
+    --text-color: #d8b4e2;
+    --card-bg: #3d2a5e;
+  }
+}
