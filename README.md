@@ -31,7 +31,7 @@ Built using **Langchain + Groq + LLMs** on the backend, and a modern **React fro
 
 ### ✨ Powered by Langchain + Groq
 
-We use **Langchain** to orchestrate prompts and parse outputs. The LLM is served through **Groq**, offering extremely fast inference using **Mixtral-8x7B**.
+We use **Langchain** to orchestrate prompts and parse outputs. The LLM is served through **Groq**, offering extremely fast inference using **llama3-70b-8192**.
 
 ### 🛠️ Pipeline
 
@@ -103,9 +103,7 @@ cd context-notes-generator
 ### 2. Backend Setup
 
 ```bash
-cd backend
-python -m venv venv
-source venv/bin/activate
+cd edubackend
 
 pip install -r requirements.txt
 uvicorn main:app --reload
@@ -120,7 +118,7 @@ GROQ_API_KEY=your_key_here
 ### 3. Frontend Setup
 
 ```bash
-cd frontend
+cd edufrontend
 npm install
 npm run dev
 ```
@@ -133,8 +131,8 @@ npm run dev
 |---------------|-------|
 | Backend       | FastAPI, Python |
 | AI Orchestration | Langchain |
-| LLM Provider  | Groq (Mixtral-8x7B) |
-| Frontend      | React (Vite), Tailwind CSS |
+| LLM Provider  | Groq (llama3-70b-8192) |
+| Frontend      | React (Vite)|
 | Deployment    | Optional - Render, Vercel, etc. |
 
 ---
@@ -145,14 +143,6 @@ npm run dev
 
 ---
 
-## 🧪 Testing with Postman
-
-Import the provided `postman_collection.json` and test:
-
-- `/generate/topic`
-- `/generate/chapter`
-
----
 
 ## ✨ Future Scope
 
