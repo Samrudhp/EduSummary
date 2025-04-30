@@ -13,6 +13,13 @@ An AI-powered application that takes **a single topic (paragraph)** or an **enti
 Built using **Langchain + Groq + LLMs** on the backend, and a modern **React frontend**.
 
 ---
+![App Screenshot](./edufrontend/public/p1.png)
+![App Screenshot](./edufrontend/public/p2.png)
+![App Screenshot](./edufrontend/public/p3.png)
+![App Screenshot](./edufrontend/public/p4.png)
+![App Screenshot](./edufrontend/public/p5.png)
+
+
 
 ## 🚀 Features
 
